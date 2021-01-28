@@ -1,0 +1,27 @@
+.waiting-list  {
+	padding: 20px;
+	width: 600px;
+	margin: 0 auto;
+	background: #a6c7e5;
+	color: #fff;
+}
+.waiting-list ul {
+  padding: 0;
+}
+.waiting-list li {
+	display: inline-block;
+	width: 100%;
+	border-bottom: 1px solid;
+	padding: 10px 0;
+}
+.waiting-list h2{text-align: center;color: #0058ff;}
+.waiting-list li a {
+	float: right;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	background: green;
+	color: #fff;
+	padding: 6px;
+	font-size: 12px;
+}

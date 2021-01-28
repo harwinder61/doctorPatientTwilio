@@ -1,0 +1,10 @@
+<div class="waiting-list">
+  <h2>Peoples are waiting you!</h2>
+  <ul>
+
+    <li *ngFor="let user of waitingList">
+      User {{user.userId}} is waiting you.  
+      <a target="_blank" href="http://localhost:4200/video?docId={{user.currentUserId}}&userType=d&patientId={{user.userId}}"> Join Call</a>
+    </li>
+  </ul>
+</div>
